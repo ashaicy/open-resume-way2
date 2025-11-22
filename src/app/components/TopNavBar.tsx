@@ -19,13 +19,8 @@ export const TopNavBar = () => {
     >
       <div className="flex h-10 w-full items-center justify-between">
         <Link href="/">
-          <span className="sr-only">OpenResume</span>
-          <Image
-            src={logoSrc}
-            alt="OpenResume Logo"
-            className="h-8 w-full"
-            priority
-          />
+          <h1 className="sr-only">Way2Hire</h1>
+         
         </Link>
         <nav
           aria-label="Site Nav Bar"
